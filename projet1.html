@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Title-Description | Charset-->
+    <title>Projet 5 : Portfolio - Communication Personnelle</title>
+    <meta charset="utf-8">
+    <meta name="description" content="PortFolio : Projet 5">
+    <link rel="shortcut icon" href="guardia.ico">
+    <!-- Import Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Import materialize.css -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/style_projets.css">
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Import animate.style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  </head>
+
+  <body>
+  <!-- MENU + SideNAV -->
+  <!-- Dropdown Structure -->
+
+  <ul id="dropdown1" class="dropdown-content">
+    <li>
+      <a href="projet1.html">Projet n°1</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="projet2.html">Projet n°2</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="projet3.html">Projet n°3</a>
+    </li>
+  </ul>
+
+  <!-- Menu Structure -->
+
+  <nav class="black" id="home">
+    <div class="na  v-wrapper">
+      <div class="container">
+        <div class="guardia_logo">
+          <a href="#!" class="brand-logo left">
+            <img src=img/guardia_logo.webp alt="Guardia_Logo">
+          </a>
+        </div>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="index.html">Accueil</a>
+          </li>
+          <li>
+            <a class="dropdown-trigger" href="#!" data-target="dropdown1">Projets <i class="material-icons right">arrow_drop_down</i>
+            </a>
+          </li>
+          <li>
+            <button data-target="modal1" class="waves-effect waves-light btn modal-trigger">Contactez-nous</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <a href="index.html">Accueil</a>
+    </li>
+    <li>
+      <a href="projet1.html">Projet n°1</a>
+    </li>
+    <li>
+      <a href="projet2.html">Projet n°2</a>
+    </li>
+    <li>
+      <a href="projet3.html">Projet n°3</a>
+    </li>
+    <li>
+      <button data-target="modal1" class="waves-effect waves-light btn modal-trigger">Contactez-nous</button>
+    </li>
+  </ul>
+
+  <!-- Parallax Projet 1 -->
+
+  <div class="parallax-container">
+    <div class="parallax header_background_home_page">
+      <img src="img/simple_back_geometric.jpg" alt="background_main">
+    </div>
+    <h1 class="align-wrapper white-text p1-title"> Projet 1 : Communication Personnelle</h1>
+    <hr>
+  </div>
+
+  <!-- Card, présentation projet 1 -->
+
+  <div class="background">
+    <div class="section">
+      <div class="container">
+        <h2 class="header center animate__animated animate__zoomIn wow">Présentation</h2>
+        <div class="row">
+          <div class="col s12 l4">
+            <div class="card">
+              <div class="card-image">
+                <img class="modif_img" src="img/comm_perso.jpg" alt="com perso ">
+              </div>
+              <div class="card-content border_left container">
+                <span class="card-title">Contexte</span>
+                <p>Dans le cadre de ce projet, tout les élèves avaient comme but principal de développer leurs compétences orales et leurs aisances. Ainsi, on devait présenter d'un sujet qui nous tenait à cœur, en l’apprenant, puis en le soutenant devant le Directeur, la Directrice pédagogique, Mme Peillon et nos camarades. Répondre aux questions, et surtout, défendre son projet face à des objections étaient deux taches qui étaient parfois un défi pour certain mais qu'on a presque tous su relevé. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l4">
+            <div class="card">
+              <div class="card-image">
+                <img class="modif_img" src="img/ampoule.jpg" alt="icon projet">
+              </div>
+              <div class="card-content border_left container">
+                <span class="card-title">Objectifs</span>
+                <p>Principes de la communication interpersonnelle, prise de parole en public, principes de présentation de projet, soutenance, réponse aux questions, tenir un argumentaire. <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l4 ">
+            <div class="card">
+              <div class="card-image">
+                <img class="modif_img" src="img/langages_prog.jpg" alt="Langages de programmation">
+              </div>
+              <div class="card-content border_left container">
+                <span class="card-title">But</span>
+                <p> Le but de ce projet était de présenter un sujet, pas forcément en rapport avec l'informatique ou même la Cybersécurité. <br> Pour ma part, avec mon groupe on a décidé de parler des langages de programmation non pas avec un powerpoint à l'appuie, mais plutôt sous forme d'un dialogue. A la fin de chaque oral, viennent les questions pouvant être posées non seulement par le jury mais aussi par les élèves. Dans l'ensemble, ce projet nous a permis de d'améliorer nos compétences orales. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel-->
+
+    <div class="section bas-de-page">
+      <div class="container">
+        <h2 class="header center animate__animated animate__lightSpeedInLeft">Soutenances</h2>
+        <div class="carousel carousel-slider center">
+          <div class="carousel-item projet1_background image-responsive">
+            <div class="carousel-fixed-item center"></div>
+          </div>
+          <div class="carousel-item projet1_2_background">
+            <div class="carousel-fixed-item center"></div>
+          </div>
+          <div class="carousel-item projet1_3_background">
+            <div class="carousel-fixed-item center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal Structure : Contactez-nous ? -->
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <div class="container" id="contact">
+          <div class="row">
+            <h2 class="center text_contact_h2">Contactez-Nous</h2>
+          </div>
+          <div class="row">
+            <h3 class="center text_contact_h3">Besoin d'information ?</h3>
+          </div>
+          <div class="row input-container">
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <input type="text" required>
+                <label>Nom</label>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input">
+                <input type="text" required>
+                <label>Email</label>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input" style="float:right;">
+                <input type="text" required>
+                <label>Numéro de téléphone</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <textarea required></textarea>
+                <label>Message</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="btn-lrg submit-btn">Envoyer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+      <h2 class="center animate__animated animate__fadeInDown wow footer_title">Retrouvez les réseaux de l'école </h2>
+      <ul class="icons">
+        <li>
+          <a href="https://www.linkedin.com/company/guardia-cybersecurity-school" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/guardiaschool/" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/guardia_school/" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="projet1.html">Projet n°1</a>
+        </li>
+        <li>
+          <a href="projet2.html">Projet n°2</a>
+        </li>
+        <li>
+          <a href="projet3.html">Projet n°3</a>
+        </li>
+      </ul>
+      <div class="footer-copyright">
+        <p>Projet 5 for Guardia: Cybersecurity School by Lucas.F and Alix.W</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript at end of body for optimized loading -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="js/script_projet1.js"></script>
+  
+  </body>
+</html>
